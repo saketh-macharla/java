@@ -1,0 +1,10 @@
+
+A
+java:S1659"&Declare "lastName" on a separate line.(ŞùÇıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ş²Áòüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(òéäøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ£©øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ü¿ÁÜøÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»›¢üÿÿÿÿ
