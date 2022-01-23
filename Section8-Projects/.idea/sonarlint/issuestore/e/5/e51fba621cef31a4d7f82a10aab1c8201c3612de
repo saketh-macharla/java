@@ -1,0 +1,11 @@
+
+B
+java:S1659"%Declare "breadth" on a separate line.(›¿¶ô8Àò·¾è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Ãò·¾è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨›Ë ıÿÿÿÿ8Åò·¾è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èÆ–ªÿÿÿÿÿ8Çò·¾è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞªÖ÷şÿÿÿÿ8Èò·¾è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶ÁŠùÿÿÿÿ8Éò·¾è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8«êÁ¾è/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û¾Ü
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ¸Éıúÿÿÿÿ

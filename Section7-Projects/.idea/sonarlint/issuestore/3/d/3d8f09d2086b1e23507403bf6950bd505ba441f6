@@ -1,0 +1,18 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¬Úıùÿÿÿÿ8¼÷ºè/
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(şšë8À÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¬Úıùÿÿÿÿ8Ä÷ºè/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(şšë8È÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ë÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Æ•ÇÙùÿÿÿÿ8Ï÷ºè/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ´Û8Ó÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ö÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ùÖá«ÿÿÿÿÿ8Ú÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Æ•ÇÙùÿÿÿÿ8Ş÷ºè/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ´Û8â÷ºè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8æ÷ºè/
+k
+java:S1192"IDefine a constant instead of duplicating this literal "owner : " 4 times.(Õ¬Úıùÿÿÿÿ8î÷ºè/
+h
+java:S1192	"KDefine a constant instead of duplicating this literal "balance : " 4 times.(şšë8ğ÷ºè/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÂğ±

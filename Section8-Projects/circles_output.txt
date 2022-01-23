@@ -1,0 +1,24 @@
+Radius of circle 3.0
+Area of Circle is 28.27
+Circumference of Circle is 18.85
+
+Radius of circle 4.0
+Area of Circle is 50.27
+Circumference of Circle is 25.13
+
+Radius of circle 4.0
+Area of Circle is 50.27
+Circumference of Circle is 25.13
+
+Radius of circle 5.0
+Area of Circle is 78.54
+Circumference of Circle is 31.42
+
+Radius of circle 6.0
+Area of Circle is 113.10
+Circumference of Circle is 37.70
+
+Radius of circle 7.0
+Area of Circle is 153.94
+Circumference of Circle is 43.98
+

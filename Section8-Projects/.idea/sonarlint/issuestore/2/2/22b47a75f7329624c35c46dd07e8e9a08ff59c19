@@ -1,0 +1,12 @@
+
+D
+java:S1659
+""Declare "ages" on a separate line.(—Ü™³ûÿÿÿÿ8¤èæ½è/
+>
+java:S1659"!Declare "age" on a separate line.(·àó‚8¥èæ½è/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8ªèæ½è/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ¸Éýúÿÿÿÿ
+k
+java:S2095"IUse try-with-resources or close this "PrintWriter" in a "finally" clause.(Áÿªðÿÿÿÿÿ8éºé½è/
+b
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(í—ãŸ8éºé½è/
