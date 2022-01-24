@@ -10,10 +10,10 @@ public class WithdrawableSavings extends Savings implements Withdraw{
     @Override
     public void withdraw(double amount) {
         double minBalance = 1000.0;
-        if (Balance - amount >= minBalance){
+        if (balance - amount >= minBalance){
             // Update Balance
-            Balance -= amount;
-            System.out.println("Available Balance in " +accType + " : "+ Balance);
+            balance -= amount;
+            System.out.println("Available Balance in " +accType + " : "+ balance);
         }
         else{
             System.out.println("Transaction Failed");

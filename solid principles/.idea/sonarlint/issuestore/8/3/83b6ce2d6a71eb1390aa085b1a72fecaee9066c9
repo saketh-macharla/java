@@ -1,0 +1,9 @@
+
+\
+java:S1161	":Add the "@Override" annotation above this method signature(Ø½ãÎùÿÿÿÿ8ø‘Ôİè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŒŒøîúÿÿÿÿ8û‘Ôİè/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚¶úÀ8ü‘Ôİè/
+W
+java:S1161":Add the "@Override" annotation above this method signature(ˆî‚À8ı‘Ôİè/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•å÷şÿÿÿÿ8ÿ‘Ôİè/
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çÒ³8€’Ôİè/

@@ -4,20 +4,20 @@ package com.wrongFormat;
 
 public class Manager {
 
-    static double total_balance=0;
+    static double totalBalance =0;
 
-    void Add_Balance(Savings account){
-        total_balance += account.Balance;
+    void addBalance(Savings account){
+        totalBalance += account.balance;
     }
-    void Add_Balance(Current account){
-        total_balance += account.Balance;
+    void addBalance(Current account){
+        totalBalance += account.balance;
     }
-    void Add_Balance(FixedDepositSavings account){
-        total_balance += account.Balance;
+    void addBalance(FixedDepositSavings account){
+        totalBalance += account.balance;
     }
 
 
-    double getTotal_Balance(){
-        return total_balance;
+    double getTotalBalance(){
+        return totalBalance;
     }
 }

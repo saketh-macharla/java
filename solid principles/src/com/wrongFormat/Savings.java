@@ -10,17 +10,17 @@ public class Savings extends BankAccount {
     @Override
     public void deposit(double amount) {
         // Add amount ot Balance
-        Balance += amount;
-        System.out.println("Available Balance "+ Balance);
+        balance += amount;
+        System.out.println("Available Balance "+ balance);
     }
 
     @Override
     public void withdraw(double amount) {
         double minBalance = 1000.0;
-        if (Balance - amount >= minBalance){
+        if (balance - amount >= minBalance){
             // Update Balance
-            Balance -= amount;
-            System.out.println("Available Balance "+ Balance);
+            balance -= amount;
+            System.out.println("Available Balance "+ balance);
         }
         else{
             System.out.println("Transaction Failed");

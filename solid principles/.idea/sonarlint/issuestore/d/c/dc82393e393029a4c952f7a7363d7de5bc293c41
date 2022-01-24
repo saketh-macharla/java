@@ -1,0 +1,11 @@
+
+v	java:S116"URename this field "b_interest" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òã¶¹ùÿÿÿÿ8÷øŞÛè/
+n
+java:S1104"QMake accNo a static final constant or non-public and provide accessors if needed.(»¼†­8†ùŞÛè/
+p
+java:S1104"SMake accType a static final constant or non-public and provide accessors if needed.(ÈÎìá8‡ùŞÛè/
+p
+java:S1104"SMake balance a static final constant or non-public and provide accessors if needed.(æ¥á8‡ùŞÛè/
+x
+java:S1104"VMake b_interest a static final constant or non-public and provide accessors if needed.(òã¶¹ùÿÿÿÿ8ˆùŞÛè/
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çÒ³8ŠùŞÛè/

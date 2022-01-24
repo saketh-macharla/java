@@ -12,8 +12,8 @@ public class Savings extends BankAccount implements Deposit, Interest{
     @Override
     public void deposit(double amount) {
         // Add amount ot Balance
-        Balance += amount;
-        System.out.println("Available Balance in " +accType + " account : "+ Balance);
+        balance += amount;
+        System.out.println("Available Balance in " +accType + " account : "+ balance);
     }
 
     @Override

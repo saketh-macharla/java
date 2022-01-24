@@ -3,14 +3,14 @@ package com.wrongFormat;
 public abstract class BankAccount {
     public int accNo;
     public String accType;
-    public double Balance;
+    public double balance;
     public double b_interest;
 
 
     BankAccount(int accNo, String accType){
         this.accNo=accNo;
         this.accType=accType;
-        this.Balance=0;
+        this.balance =0;
     }
 
     // Everytime a accType is added then interest method should be changed

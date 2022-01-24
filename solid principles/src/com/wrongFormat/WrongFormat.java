@@ -32,11 +32,11 @@ public class WrongFormat {
         // Manager uses savings/current/fixed to accomplish its task i.e  finding total balance
 
         Manager manager = new Manager();
-        manager.Add_Balance(savings);
-        System.out.println(manager.getTotal_Balance());
-        manager.Add_Balance(current);
-        System.out.println(manager.getTotal_Balance());
-        manager.Add_Balance(fixed);
-        System.out.println(manager.getTotal_Balance());
+        manager.addBalance(savings);
+        System.out.println(manager.getTotalBalance());
+        manager.addBalance(current);
+        System.out.println(manager.getTotalBalance());
+        manager.addBalance(fixed);
+        System.out.println(manager.getTotalBalance());
     }
 }
