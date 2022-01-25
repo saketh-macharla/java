@@ -1,4 +1,4 @@
 
-X
-java:S2696	"6Make the enclosing method "static" or remove this set.(ΐΈ΅ÿÿÿÿÿ8―υήΫθ/
+S
+java:S2696	"6Make the enclosing method "static" or remove this set.(’ΧΖκ8―υήΫθ/
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ψϋ¬¶ψÿÿÿÿ8»υήΫθ/

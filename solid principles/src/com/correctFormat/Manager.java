@@ -6,7 +6,7 @@ public class Manager {
 
     void addBalance(BankAccount account){
         this.acc =account;
-        totalBalance += acc.balance;
+        totalBalance += acc.getBalance();
     }
     double getTotalBalance(){
         return totalBalance;

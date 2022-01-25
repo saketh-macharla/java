@@ -20,7 +20,7 @@ public class WrongFormat {
         savings.interest();
         current.interest();
 
-        //fixed a account should not have withdraw method
+        //fixed  account should not have withdraw method
         // FixedDeposit_Savings cannot substitute Savings
         //Liskov Substitution principle violation
         // To fix this I used interface segregation

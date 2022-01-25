@@ -2,18 +2,42 @@ package com.correctFormat;
 
 
 public abstract class BankAccount {
-    public int accNo;
-    public String accType;
-    public double balance;
-    public double b_interest;
+    private int accNo;
+    private String accType;
+    private double balance;
+    private double b_interest;
 
 
     BankAccount(int accNo, String accType){
         this.accNo=accNo;
         this.accType=accType;
         this.balance =0;
+        this.b_interest=0;
     }
 
+    public double getBinterest() {
+        return b_interest;
+    }
+
+    public int getAccNo() {
+        return accNo;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public String getAccType() {
+        return accType;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void setBinterest(double b_interest) {
+        this.b_interest = b_interest;
+    }
 
     /*
 Removed and placed in an Interface => to make it follow Openclosed Principle

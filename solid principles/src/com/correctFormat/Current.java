@@ -12,17 +12,21 @@ public class Current extends BankAccount implements Withdraw,Deposit,Interest{
     @Override
     public void deposit(double amount) {
         // Add amount ot Balance
+        double balance=getBalance();
         balance += amount;
-        System.out.println("Available Balance in " +accType + " account : "+ balance);
+        System.out.println("Available Balance in " +getAccType() + " account : "+ balance);
+        setBalance(balance);
     }
 
     @Override
     public void withdraw(double amount) {
         double minBalance = 25000.0;
+        double balance=getBalance();
         if (balance - amount >= minBalance){
             // Update Balance
             balance -= amount;
-            System.out.println("Available Balance in " +accType + " account : "+ balance);
+            setBalance(balance);
+            System.out.println("Available Balance in " +getAccType() + " account : "+ balance);
         }
         else{
             System.out.println("Transaction Failed");
@@ -32,9 +36,9 @@ public class Current extends BankAccount implements Withdraw,Deposit,Interest{
     @Override
     public void interest() {
         // assigning Current Account interest to b_interest
-        b_interest=1.5;
+        setBinterest(1.5);
 
-        System.out.println("Current Account interest is "+ b_interest);
+        System.out.println("Current Account interest is "+ getBinterest());
 
 
     }

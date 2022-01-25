@@ -12,16 +12,18 @@ public class Savings extends BankAccount implements Deposit, Interest{
     @Override
     public void deposit(double amount) {
         // Add amount ot Balance
+        double balance=getBalance();
         balance += amount;
-        System.out.println("Available Balance in " +accType + " account : "+ balance);
+        System.out.println("Available Balance in " +getAccType() + " account : "+ balance);
+        setBalance(balance);
     }
 
     @Override
     public void interest() {
-        // assigning Saving Account interest to b_interest
-        b_interest=2.0;
+        // assigning Current Account interest to b_interest
+        setBinterest(1.5);
 
-        System.out.println("Saving Account interest is "+ b_interest);
+        System.out.println("Current Account interest is "+ getBinterest());
     }
 
     // Now I want to have two sub classes for Savings

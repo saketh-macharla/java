@@ -9,9 +9,11 @@ public class FixedDepositSavings extends NonWithdrawableSavings {
     public void deposit(double amount) {
         // Add amount ot Balance
         double minFixedDeposit = 100000.0;
+        double balance = getBalance();
         if(amount >= minFixedDeposit){
             balance += amount;
-            System.out.println("Available Balance in " +accType + " account : "+ balance);
+            System.out.println("Available Balance in " +getAccType() + " account : "+ balance);
+            setBalance(balance);
         }
         else{
             System.out.println("Transaction Failed : MinDeposit is "+ minFixedDeposit);
