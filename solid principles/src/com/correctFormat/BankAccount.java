@@ -15,6 +15,8 @@ public abstract class BankAccount {
         this.b_interest=0;
     }
 
+// Getters and Setters are not considered as separate responsibility
+
     public double getBinterest() {
         return b_interest;
     }
